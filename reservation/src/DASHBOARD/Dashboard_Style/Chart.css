@@ -1,0 +1,51 @@
+ 
+  .chart-container{
+    display: flex;
+    background-color: #ecebeb;
+    width: 20rem;
+    border-radius: 5px;
+    margin-top: 50px;
+    font-size: large;
+   
+
+
+  }
+  .chart-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+   
+  }
+
+  .chart-info{
+    display: flex;
+    color: black
+  }
+
+  .browser{
+    margin-left: 1px;
+    margin-top: -20px;
+    font-size: x-large;
+ }
+
+  .list{
+    margin-left: -30px;
+    
+  }
+  .list-info{
+    margin-left: 10px;
+    display: flex;
+    gap: 60px;
+    color: rgb(11, 4, 78);
+  }
+  .browser-info{
+    color: black;
+    margin-left: 700px;
+    margin-top: -300px;
+    font-size: medium;
+  }
+  .relative-chart{
+  width: 100%
+  }
+  

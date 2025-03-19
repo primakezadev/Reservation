@@ -1,0 +1,41 @@
+.safari-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+   font-size: 2rem;
+   margin-top: 20px;
+   
+
+}
+
+.safari-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.safari-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 610px;
+}
+
+.safari-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.safari-info {
+  padding: 15px;
+}
+
+.price {
+  color: green;
+  font-weight: bold;
+}
+
+.details, .visit, .company, .rating {
+  font-size: 15px;
+  margin: 5px 0;
+}

@@ -1,0 +1,120 @@
+/* Navbar Container */
+.admin-navbar {
+    display: flex;
+   width: 79.9%;
+   height: 8vh;
+   margin-left: 300px;
+   margin-top: 5px;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f9fc;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Left Section */
+  .nav-left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .breadcrumb {
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .dashboard-text {
+    color:blue;
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  .page-title {
+    font-size: 20px;
+    color: #222;
+    font-weight: bold;
+  }
+  
+  /* Right Section */
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Search Box */
+  .search-box {
+    width: 20%;
+    height: 35px;
+    margin-left: -400px;
+    margin-bottom: 635px;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 20px;
+    padding: 5px 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .search-box input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .search-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Icons */
+  .nav-icons {
+    display: flex;
+    gap: 10px;
+    margin-left: 15px;
+  }
+  
+  .icon-btn {
+    background: #3c3f58;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* User Profile */
+  .user-profile {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    gap: 10px;
+  }
+  
+  .user-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #222;
+  }
+  
+  .user-role {
+    font-size: 12px;
+    color: #888;
+  }
+  

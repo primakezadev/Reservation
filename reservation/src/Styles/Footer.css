@@ -1,0 +1,100 @@
+.footer{
+    background-color:#0E0590;
+    color: white;
+    display: flex;
+    margin-top: 347px;
+    margin-bottom: 0.2rem;
+}
+.footer-info{
+   padding: 20px;
+}
+.ear{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.paragraph{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.icon{
+    font-size: x-large;
+    margin-top: 35px;
+    margin-left: 15px;
+}
+.icon1{
+    background-color: rgb(32, 32, 143);
+    margin-left: 20px;
+}
+.icon2{
+    background-color: black;
+    margin-left: 20px;
+}
+
+.insta{
+    width: 30px;
+    margin-left: 20px;
+}
+.in{
+    width: 30px;
+    margin-left: 20px;
+}
+.facebook{
+    width: 30px;
+}
+.footer-rem{
+    margin-top: 19px;
+    margin-left: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.lists{
+    
+    color: rgb(212, 212, 212);
+    margin-top: 30px;
+}
+.li{
+    color: white;
+    text-decoration: none;
+
+}
+.contact-info{
+    margin-left: 150px;
+    margin-top: 19px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.call{
+    font-size: x-large;
+    margin-top: 25px;
+}
+.phone{
+    margin-left: 40px;
+    margin-top: -29px;
+}
+.mail{
+    font-size: x-large;
+    margin-top: 20px;
+}
+.gmail{
+    margin-left: 45px;
+    margin-top: -31px;
+}
+.street{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.subscribe-info{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: x-large;
+        
+   
+}
+.news{
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-left: 160px;
+}
+.sub{
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-left: 180px;
+}

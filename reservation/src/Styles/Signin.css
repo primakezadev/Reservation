@@ -1,0 +1,151 @@
+
+/* Parent Container */
+.container {
+  display: flex;
+  width: 100%;
+  height: 80vh; /* Keeps everything centered */
+  max-width: 900px;
+  background: rgb(206, 19, 19);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Login Form Section */
+.login-container {
+  width: 45%;
+  margin-top: 50px;
+  margin-left: 400px;
+  background:rgb(250, 247, 247);
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.paragraph-information{
+  margin-bottom: 30px; 
+}
+
+/* Logo */
+.logo {
+  font-size: 40px;
+  color: #0E0590;
+}
+
+/* Input Fields */
+.input-container {
+  text-align: left;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.input-container label {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Remember Me & Forgot Password */
+.remember-forgot {
+  display: flex;
+  font-size: 15px;
+}
+.remember{
+margin-left: 10px;
+ 
+}
+.password{
+  margin-top: 50px;
+  margin-left:50px;
+  color: #0E0590;;
+}
+
+/* Buttons */
+.primary-btn {
+  width: 100%;
+  max-width: 300px;
+  background-color: #0E0590;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.social-login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-login-text {
+  color:black;
+  font-size: 16px;
+}
+
+.social-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-btn {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.facebook {
+  background-color: #0E0590;
+}
+
+.facebook:hover {
+  background-color: #1558c2;
+}
+
+.twitter {
+  background-color:#078bf8;
+}
+
+.twitter:hover {
+  background-color: #0c85d0;
+}
+
+.google {
+  background-color: rgb(248, 162, 1);
+}
+
+.google:hover {
+  background-color:rgb(247, 179, 54);
+}
+.register-text{
+  margin-top: 20px;
+ 
+}
+.register-here{
+  color: #0E0590;
+}
+.form-inf{
+  margin-top: 20px;
+}

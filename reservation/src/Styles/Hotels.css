@@ -1,0 +1,108 @@
+
+.hotels-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .hotel-card {
+    width: calc(33.33% - 20px); /* 3 cards per row */
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .hotel-image {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .hotel-location {
+    font-size: 14px;
+    color: gray;
+    margin-top: 8px;
+  }
+  
+  .hotel-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+  }
+  
+  .hotel-price {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .hotel-rating {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    margin-top: 5px;
+  }
+  
+
+    
+
+.marriot{
+    width: 35%;
+    border-radius: 10px;
+    height: 240px;
+    margin-top: 50px;
+}
+.kgl{
+    position: relative;
+    margin-top: -200px;
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+    font-size: xx-large;
+}
+.nation{
+    width: 10%;
+    margin-top: -50px;
+    margin-left: 120px;
+}
+.dubai{
+    width: 35%;
+    border-radius: 10px;
+  
+    margin-left: 1px;
+    margin-top: 170px;
+}
+.dudu{
+    width: 10%;
+    margin-left: 113px;
+    margin-top: -40px;
+}
+.duba{
+    width: 30%;
+   margin-left: 30px;
+}
+.property{
+    margin-top: 110px;
+    margin-left: 10px;
+    font-weight: bolder;
+  
+}
+.gallery-arrival{
+    display: flex;
+    border-radius: 12px;
+    width: 100%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    
+  
+}
+.rating{
+    margin-left: 5rem;
+}
+.five{
+    margin-left: -20px;
+}

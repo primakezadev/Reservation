@@ -1,0 +1,102 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   margin-left: 350px;
+   margin-top: -550px;
+  }
+  
+  .header .tabs span {
+    margin-right: 10px;
+    font-size: 25px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  .active1{
+    color: blue;
+  }
+  .title{
+    margin-top: 30px;
+    margin: 20px;
+  }
+  .active1:hover{
+    text-decoration: line;
+  }
+  
+  
+  .search-user {
+    display: flex;
+    margin-left: -10px;
+    align-items: center;
+  }
+  
+  .header .search-user input {
+    padding: 5px;
+    font-size: 15px;
+    margin-right: 520px;
+  }
+  
+  .header .search-user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+ 
+  .profile-pic {
+    width: 45%;
+    height: 25px;
+    border-radius: 50%;
+}
+.navbar{
+display: flex;
+margin-top: -840px;
+margin-left: 290px;
+}
+.search-bar{
+    margin-left: 650px;
+
+}
+.search-icon{
+    display: flex;
+    position: absolute;
+    margin-top: 25px;
+    
+}
+.search-input {
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin: 20px;
+    font-size: 20px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    
+}
+.navbar-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .icon5{
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .icon6{
+    font-size: 25px;
+    margin-left: 20px;
+  }
+  .profile-pic {
+    width: 90%;
+    height: 40px;
+   margin-left: 10px;
+   margin-top: 8px;
+  }
+ 
+
+   .hotel-icon{
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: rgb(3, 3, 136);
+   }
+ 

@@ -1,0 +1,59 @@
+.sidebar {
+ 
+    width: 15rem;
+    height: 800px;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+ 
+ 
+
+  
+  .sidebar .nav-items {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar .nav-items li {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar .nav-items li.active {
+    background-color:#0E0590;
+    border-radius: 10px;
+
+  }
+  
+  .sidebar .admin-view {
+    margin-top: 20px;
+    cursor: pointer;
+  }
+ .logo-image{
+    width: 30%;
+    height: 70px;
+    margin-top: -32px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+ }
+ .home{
+    margin-left: 20px;
+    list-style: none;
+    text-decoration: none;
+ }
+ .home1{
+    margin-left: 20px;
+    color:black;
+   
+    
+ }
+ .nav-items a{
+  text-decoration: none;
+  font-size: 1.3rem;
+  margin-left: 10px;
+  color: #0E0590;;
+ }
