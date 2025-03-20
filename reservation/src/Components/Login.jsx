@@ -6,7 +6,8 @@ import logo from "../assets/images/logo.png";
 import Inputfield from "./Inputfield";
 import Button from "./Button";
 import { FaFacebook, FaTwitter, FaGoogle } from "react-icons/fa6";
-import "../styles/Signin.css";
+import "../../styles/Signin.css";
+
 
 const API_URL = "http://localhost:5001";
 

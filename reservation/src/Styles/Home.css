@@ -13,7 +13,7 @@
     text-align: center;
   }
   
-  /* Dark Overlay */
+ 
   .overlay {
     position: absolute;
     top: 0;
@@ -59,7 +59,7 @@
     background: #005999;
   }
   
-  /* Search Box */
+
   .search-box-home{
     display: flex;
     align-items: center;
