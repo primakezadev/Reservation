@@ -17,7 +17,7 @@ export default function Navbar(){
       <img src={logo} alt="logo" className="navbar-logo" />
 
          <ul className="nav-links">
-         <Link to="/Home">Home</Link>
+         <Link to="/">Home</Link>
           <Link to="/about">About Us</Link>
           <Link to="/hotels">Hotels</Link>
          <Link to="/rentals">Rentals</Link>

@@ -26,7 +26,7 @@ function App() {
       <Routes>
         {/* Public Pages */}
         <Route path="/" element={<Layout />}>
-          <Route path="Home" element={<Home />} />
+          <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="hotels" element={<Hotels />} />
           <Route path="rentals" element={<Rentals />} />
