@@ -1,7 +1,7 @@
 
 import React from "react";
 import { useState } from 'react';
-import "../Styles/navbar.css";
+import "../Styles/Navbar.css";
 import logo from "../assets/images/logo.png"
 
 
