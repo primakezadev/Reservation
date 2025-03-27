@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import { FaStar } from "react-icons/fa6";
-import "../styles/Hotels.css"; 
+import "../Styles/Hotels.css"; 
 import pic4 from "../assets/images/pic4.jpeg";
 import pic5 from "../assets/images/pic5.jpeg";
 import tanzania from "../assets/images/tanzania.jpeg";

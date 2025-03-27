@@ -1,6 +1,6 @@
 import React from "react";
 import { FaStar } from "react-icons/fa6";
-import "../styles/Luxury.css";
+import "../Styles/Luxury.css";
 
 // Import images
 import pic4 from "../assets/images/pic4.jpeg";
