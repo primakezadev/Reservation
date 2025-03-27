@@ -40,20 +40,11 @@ background-color: white;
     gap: 20px; 
   }
    
-
-  .nav-links li {
-    padding-left: 5rem;
-    font-size: 20px;
-    display: flex;
-    visibility: visible;
-    opacity: 1;
-}
-
   .nav-links a {
     text-decoration: none;
     color: #333;
     margin-top: 14px;
-    margin-left: 10px;
+    margin-left: 100px;
     color: black !important;
     font-size: 18px; 
   }
