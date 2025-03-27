@@ -98,6 +98,7 @@ const trips = [
 const TripCard = ({ trip }) => {
   return (
     <div className="trip-card">
+     
       <img src={trip.image} alt={trip.title} className="trip-image" />
       <h3 className="trip-title">{trip.title}</h3>
       <p className="trip-airline">{trip.airline}</p>

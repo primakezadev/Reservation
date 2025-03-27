@@ -229,7 +229,10 @@
     font-weight: bold;
 }
 .top-hotels{
-    margin-top: 100px;
+    margin-top: 60px;
+}
+.top-hotels h1{
+  margin-left: 100px;
 }
 .trending-destination{
      max-width: 1400px;
@@ -252,6 +255,9 @@
   }
   .trending-container{
     margin-top: 30px;
+  }
+  .luxur-hotel h1{
+  margin-left: 95px;
   }
 
 

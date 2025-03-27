@@ -6,7 +6,7 @@ import logo from "../assets/images/logo.png";
 import Inputfield from "./Inputfield";
 import Button from "./Button";
 import { FaFacebook, FaTwitter, FaGoogle } from "react-icons/fa6";
-import "../../styles/Signin.css";
+import "../styles/Signin.css";
 
 
 const API_URL = "http://localhost:5001";
@@ -73,7 +73,7 @@ const LoginForm = () => {
   return (
     <div className="login-container">
       <div className="logo">
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" className="imagex" />
       </div>
       <h2>Welcome back!</h2>
       <p className="paragraph-information">Enter to get unlimited access to data & information.</p>

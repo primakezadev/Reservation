@@ -50,32 +50,6 @@ export default function Dashboardview(){
       ))}
     </div>
           
-            {/* <div className="chart-info">
-                <div className="messages-info">
-                <h2 className="inbox">Inbox</h2>
-                <div>
-                    <h3 className="james">james</h3>
-                    <p className="finish">I've finished</p>
-                </div>
-                <div>
-                    <h3 className="christopher">christopher</h3>
-                    <p className="awesome">this product is awesome</p>
-                </div>
-
-                <div>
-                    <h3 className="jessica">Jessica</h3>
-                    <p className="cool">this product is cool and helpful</p>
-                </div>
-
-                <div>
-                   <h3 className="joseph">Joseph</h3>
-                   <p className="body">awesome Body lotion</p>
-                </div>
-                
-                </div>
-              
-
-            </div> */}
            
            
                 

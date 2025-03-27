@@ -18,7 +18,7 @@ const TripList = () => {
           </span>
         ))}
       </div>
-      <button className="new-trip-btn">+ New Trip</button>
+      <button className="new-trip-btn">+ New Trips</button>
     </div>
   );
 };

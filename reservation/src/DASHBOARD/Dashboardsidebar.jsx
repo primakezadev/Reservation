@@ -28,7 +28,7 @@ function Dashboardsidebar() {
         <li><PiSquaresFourLight /> <Link to="/Dashboard/Expenses">Explore City&Tour</Link></li>
         <li><IoMdNotificationsOutline /><Link to="/dashboard/notification">Notification</Link></li>
         <li><MdFavoriteBorder /><Link to="/Dashboard/favorite">Favorites</Link></li>
-        <li><IoSettingsOutline /><Link to="/Dashboard/setting">Settings</Link></li>
+        <li><IoSettingsOutline /><Link to="/Dashboard/setting">Setting</Link></li>
         
       </ul>
     </div>

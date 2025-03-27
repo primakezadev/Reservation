@@ -18,6 +18,7 @@ import Favorite from "./DASHBOARD/Favorite"
 import Settings from "./DASHBOARD/Settings";
 import AdminLayout from "./Admin-Dashboard/AdminLayout";
 import AdminView from "./Admin-Dashboard/AdminView";
+import AdmDashboard from "./Admin-Dashboard/AdmDashboard";
 
 function App() {
   return (
@@ -45,9 +46,14 @@ function App() {
           <Route path="Setting" element={<Settings />} />
         </Route>
       
+        <Route path="/Admin-Dashboard" element={<AdminLayout />}>
+        <Route index element={<AdminView />} />
+        <Route path="Adm-dashboard" element={<AdmDashboard />} /> {/* Corrected path */}
 
-         <Route path="/Admin" element={<AdminLayout />} />
-           <Route index element={<AdminView />} />
+       </Route>
+
+
+
           
 
       </Routes>

@@ -78,7 +78,7 @@ const LuxuryHotels = [
     rating: 5,
   },
   {
-    id: 4,
+    id: 9,
     location: "Nairobi, Kenya",
     name: "Original Maasai Lodge",
     priceRange: "$225-Avg/Night",

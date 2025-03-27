@@ -14,8 +14,8 @@ const AdminSidebar = () => {
       </div>
 
       <nav className="sidebar-nav">
-        <Link to="/dashboard" className="sidebar-link">
-          <FaTh className="icon" /> Dashboard
+        <Link to="/Adm-dashboard" className="sidebar-link">
+          <FaTh className="icon" /> Adm-Dashboard
         </Link>
         <Link to="/bookings" className="sidebar-link">
           <FaCheckSquare className="icon" /> Bookings

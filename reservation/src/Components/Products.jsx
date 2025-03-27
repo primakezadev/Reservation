@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 
 import { FaStar } from "react-icons/fa6";
 import "../styles/Hotels.css"; 
-
-// Import images
 import pic4 from "../assets/images/pic4.jpeg";
 import pic5 from "../assets/images/pic5.jpeg";
 import tanzania from "../assets/images/tanzania.jpeg";
@@ -12,10 +10,7 @@ import convect from "../assets/images/convect.jpg";
 import bisate from "../assets/images/bisate.jpeg";
 import mille from "../assets/images/mille.jpeg";
 import serena from "../assets/images/serena.jpeg";
-import mik1 from "../assets/images/mik1.jpeg";
-import mik2 from "../assets/images/mik2.jpeg";
-import mik3 from "../assets/images/mik3.jpeg";
-import mik4 from "../assets/images/mik4.jpeg";
+
 
 const Products = [
   {
@@ -64,6 +59,22 @@ const Products = [
     name: "Bisate Lodge Rwanda",
     priceRange: "$225-Avg/Night",
     image: bisate,
+    rating: 5,
+  },
+  {
+    id: 7,
+    location: "Musanze, Rwanda",
+    name: "Bisate Lodge Rwanda",
+    priceRange: "$225-Avg/Night",
+    image: mille,
+    rating: 5,
+  },
+  {
+    id: 8,
+    location: "Musanze, Rwanda",
+    name: "Bisate Lodge Rwanda",
+    priceRange: "$225-Avg/Night",
+    image: serena,
     rating: 5,
   },
 ];

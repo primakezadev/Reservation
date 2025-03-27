@@ -48,10 +48,10 @@
     height: 25px;
     border-radius: 50%;
 }
-.navbar{
-display: flex;
-margin-top: -840px;
-margin-left: 290px;
+ .navbar{
+   display: flex;
+   margin-top: -790px;
+   margin-left: 291px;
 }
 .search-bar{
     margin-left: 650px;

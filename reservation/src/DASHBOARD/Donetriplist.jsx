@@ -68,7 +68,7 @@ const TripeItem = ({ image, location, date }) => {
 const DoneTripeList = () => {
   return (
     <div className="done-tripe-list">
-      <h2 className="list-title">Done Trips</h2>
+      <h2 className="list-title">Done Tripes</h2>
       {tripeData.map((tripe) => (
         <TripeItem
           key={tripe.id}

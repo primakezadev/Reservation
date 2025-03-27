@@ -1,5 +1,5 @@
 import React from "react";
-import "../DASHBOARD/Dashboard_style/view.css";
+
 
 import { CiUser } from "react-icons/ci";
 import { IoMdEye } from "react-icons/io";
@@ -8,9 +8,8 @@ import { GiMidnightClaw } from "react-icons/gi";
 import { TiPin } from "react-icons/ti";
 import { IoCloseSharp } from "react-icons/io5";
 import { FaDollarSign } from "react-icons/fa";
-import Dashboardchart from './Dashboardchart';
-import Dashboardcharts from './Dashboardcharts';
-import '../DASHBOARD/Dashboard_Style/Expenses.css';
+
+
 
 export default function Dashboardview() {
     const stats = [
@@ -102,8 +101,7 @@ export default function Dashboardview() {
                         </div>
                     </div>
                 ))}
-                <Dashboardchart />
-                <Dashboardcharts />
+              
                 
             </div>
         </div>

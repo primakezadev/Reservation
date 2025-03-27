@@ -9,6 +9,7 @@ import  "../DASHBOARD/Dashboard_Style/view.css"
 function Dashboardview() {
     return (
         <div>
+           
             <Triplist />
             <Tripcard />
             <Donetripelist />

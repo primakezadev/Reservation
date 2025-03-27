@@ -19,11 +19,12 @@ const cities = [
 
 const Favorite = () => {
   return (
-    <div className="city-grid">
+    <div className="city-gridfav">
       {cities.map((city, index) => (
         <div key={index} className="city-card" style={{ backgroundImage: `url(${city.image})` }}>
           <div className="city-label">
-            {city.name} <span>{city.flag}</span>
+            {city.name} <span>{city.flag}</span> 
+            
           </div>
         </div>
       ))}

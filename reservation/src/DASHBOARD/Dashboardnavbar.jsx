@@ -24,6 +24,7 @@ function DashboardNavbar() {
           alt="Profile"
           className="profile-pic"
         />
+  
        
        
       </div>

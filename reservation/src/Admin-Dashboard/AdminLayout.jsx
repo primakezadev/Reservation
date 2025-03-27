@@ -7,9 +7,9 @@ import { Outlet } from "react-router-dom";
 function AdminLayout() {
   return (
     <div>
-            <AdminNavbar /> 
+           
       <AdminSidebar />
-  
+      <AdminNavbar /> 
         <Outlet />
       </div>
     

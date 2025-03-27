@@ -24,7 +24,7 @@ export default function SettingsPage() {
         <h2 className="settings-title">Settings</h2>
         <div className="settings-content">
           <div>
-            <label className="settings-label">Username</label>
+            <label className="settings-label">Usernames</label>
             <input 
               type="text" 
               value={username} 

@@ -10,6 +10,8 @@ import "../Styles/Home.css"
 import Featurecard from "./Featurecard"
 import Staysection from "./Staysection";
 import HotelDealscard from "./HotelDealscard";
+import Rewards from "./Rewards"
+
 
 export default function Home(){
   return(
@@ -48,29 +50,21 @@ export default function Home(){
            </div>
            <Staysection />
            <HotelDealscard />
+           <Rewards />
 
            <div className="trending-destination">
-            <div className="trending-container">
-            <h1 className="trend">Trending Destination</h1>
-
-            <div className="trending-images">
-            <img src={dar} alt="dar" className="daras" />
-            <img src={convect} alt="convect" className="convect" />
-            <img src={addis} alt="addis" className="addis" />
-            <img src={bisate} alt="bisate" className="bisate" />
-            </div>
-            </div>
           
            <div className="top-hotels">
-            <h2 className="hotels">Top Hotels</h2>
+           <h1>Top Hotels</h1>
             <Products />
            </div>
    
-          <div>
-             <h2 className="luxury-hotels">Luxury Hotels</h2>
+          <div className="luxur-hotel"> 
+             <h1>Luxury Hotels</h1>
              <Luxury />
             </div>
-            <img src={dr1} alt="dr1" />
+          
+      
            
             </div>
             </div> 

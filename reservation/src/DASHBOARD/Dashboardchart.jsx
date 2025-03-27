@@ -26,7 +26,7 @@ const CustomAreaChart = () => {
             dataKey="uv"
             stroke="#00bfa5" 
             fill="#b2dfdb" 
-            activeDot={{ r: 8 }}
+            activeDot={{ r: 9 }}
           />
           <Area
             type="monotone"

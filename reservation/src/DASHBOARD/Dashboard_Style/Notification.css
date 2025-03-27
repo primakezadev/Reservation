@@ -1,11 +1,11 @@
 .notification-container {
    display: grid; 
    grid-template-columns: repeat(4, 1fr);
-   padding: 20px;
+   padding: 2px;
    width: 80%;
-   height: 5vh;
-   margin-left: 298px;
-   margin-top: -100px;
+   height: 36px;
+   margin-left: 290px;
+   margin-top: 10px;
 
   
   
@@ -34,12 +34,13 @@
   }
   
   .notification-description{
-    display: flex;
+   
+    
    
   }
   .notification-text {
     flex: 1;
-    margin-left: 12px;
+    margin-left: 13px;
   }
   
   .notification-time {
@@ -58,11 +59,13 @@
 
   }
   .notification-unread{
-    font-size: 20px;
-   width: 8%;
-   height: 2rem;
-   margin-top: 50px;
+    margin-left: 14px;
+    margin-top: 3rem;
     padding: 10px;
+    width:5%;
+    font-size: 1.1rem;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
   }
   .notification-unread:hover{
     background-color: blue;

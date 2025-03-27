@@ -7,6 +7,7 @@ const Settinglist = () => {
 
   return (
     <div className="setting-list-container">
+      
       <div className="trip-tabs">
         {tabs.map((tab) => (
           <span

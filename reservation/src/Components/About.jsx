@@ -7,16 +7,20 @@ import pic2 from "../assets/images/pic2.jpeg"
 import mille from "../assets/images/mille.jpeg"
 import Inspiration from "./Inspiration"
 
+
 import '../Styles/About.css'
    
 
 export default function About(){
     return(
-    <div>
-        <div>
+    <div className="about-container">
+        <div className="about-gallery">
             <img src={convect} alt="convect" className="conv" />
             <img src={mik2} alt="mik" className="conv" />
-     <img src={explore} alt="explore" className="conv" /> </div> 
+     <img src={explore} alt="explore" className="conv" />
+     
+      </div> 
+
      <section className="about-container">
       <h2 className="about-title">About Us</h2>
       <p className="about-text">
@@ -52,7 +56,9 @@ export default function About(){
        <img src={pic2} alt="pic" className="pic2" />
        <img src={mille} alt="pic" className="pica" />
    </div>
+
    <Inspiration />
+
     </section> 
    
   

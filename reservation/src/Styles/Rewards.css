@@ -1,0 +1,70 @@
+.genius-rewards {
+    font-family: Arial, sans-serif;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  
+  .genius-card {
+    background: #003580;
+    color: white;
+    padding: 20px;
+    margin-left: 195px;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 220px;
+  }
+  
+  .genius-card h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .genius-card p {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .rewards-list {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .reward-card {
+    border: 2px solid #003580;
+    padding: 15px;
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 220px;
+    height: 60px;
+    background: white;
+  }
+  
+  .reward-card h4 {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .reward-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .reward-icon {
+    font-size: 18px;
+    color: #003580;
+  }
+  
+  .reward-card p {
+    margin: 5px 0 0;
+    font-size: 14px;
+  }
+  
+  .reward-card.locked {
+    background: #f0f0f0;
+    color: gray;
+    border-color: gray;
+  }
+  

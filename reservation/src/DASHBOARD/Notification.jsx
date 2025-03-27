@@ -25,7 +25,7 @@ const NotificationItem = ({ title, description, time, icon }) => (
 
 const Notification = () => (
   <div className="notification-content">
-    <h2 className="notification-paragraph">Notification</h2>
+    <h2 className="notification-paragraph">Notifications</h2>
 
     <div className="button-container">
       <button className="notification-button">All</button>

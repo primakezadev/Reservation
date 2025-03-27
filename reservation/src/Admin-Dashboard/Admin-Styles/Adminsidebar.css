@@ -1,9 +1,9 @@
 /* Sidebar Styling */
 .sidebar {
-    width: 250px;
+    width: 15%;
     height: 100vh;
-    margin-top: -72px;
-    background: #f5f6ff;
+    margin-top: 1px;
+    background:#f5f6ff;
     padding: 20px;
     display: flex;
     flex-direction: column;

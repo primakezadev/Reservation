@@ -1,0 +1,84 @@
+.enquiries-container {
+    padding: 20px;
+    width: 20%;
+    margin-top: -1350px;
+    margin-left: 1300px;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+  
+    margin-left: -130px;
+    margin-bottom: 15px;
+  }
+  
+  .enquiries-grid {
+    display: grid;
+    grid-template-columns: repeat(0,);
+  
+    gap: 15px;
+  }
+  
+  .enquiry-card {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .category {
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 5px;
+    color: white;
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  
+  .bookings {
+    background:#0E0590;
+  }
+  
+  .inquiries {
+    background: #0d9488;
+  }
+  
+  .payments {
+    background: #806104;
+  }
+  
+  .checkout {
+    background: #655ce6;
+  }
+  
+  .cancellations {
+    background:orange
+  }
+  
+  .view-message {
+    text-decoration: none;
+    color: #ff6b00;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .view-message:hover {
+    text-decoration: underline;
+  }
+  

@@ -31,8 +31,10 @@
 /* Logo */
 .logo {
   font-size: 40px;
-  color: #0E0590;
+  margin-left: 30px;
 }
+
+
 
 /* Input Fields */
 .input-container {
