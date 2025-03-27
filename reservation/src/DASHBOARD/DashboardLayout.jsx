@@ -1,8 +1,6 @@
 import React from "react";
 import Dashboardsidebar from "./Dashboardsidebar"; 
-import DashboardNavbar from "./DashboardNavbar.jsx";
-
-
+import Dashboardnavbar from "./Dashboardnavbar.jsx";
 import { Outlet } from "react-router-dom";
 
 function DashboardLayout() {
@@ -10,7 +8,7 @@ function DashboardLayout() {
     <div>
       
       <Dashboardsidebar />
-      <DashboardNavbar /> 
+      <Dashboardnavbar /> 
         <Outlet />
       </div>
     

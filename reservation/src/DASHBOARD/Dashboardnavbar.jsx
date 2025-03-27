@@ -6,7 +6,7 @@ import { CiBellOn } from "react-icons/ci";
 import { FaHotel } from "react-icons/fa";
 import '../DASHBOARD/Dashboard_Style/Dashboardnavbar.css';
 
-function DashboardNavbar() {
+function Dashboardnavbar() {
   return (
     <nav className="navbar">
     <h2 className="title">Find Hotel to stay</h2>
@@ -34,4 +34,4 @@ function DashboardNavbar() {
   );
 }
 
-export default DashboardNavbar;
+export default Dashboardnavbar;
