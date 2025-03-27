@@ -3,6 +3,7 @@ import React from "react";
 import { useState } from 'react';
 import "../Styles/Navbar.css";
 import logo from "../assets/images/logo.png"
+import { Link } from "react-router-dom"; 
 
 
 export default function Navbar(){
@@ -14,14 +15,15 @@ export default function Navbar(){
   return(
     <div className="navbar-container">
       <img src={logo} alt="logo" className="navbar-logo" />
+
          <ul className="nav-links">
-          <li><a href="/">Home</a></li>
-          <li><a href="/about">About Us</a></li>
-          <li><a href="/hotels">Hotels</a></li>
-         <li><a href="/rentals">Rentals</a></li>
-          <li><a href="/tours">Tour Packages</a></li>
-          <li><a href="/contact">Contact</a></li>
-          <li><a href="/Login" className="buttonNav">Login</a></li>
+         <Link to="/Home">home</Link>
+          <Link to="/about">About Us</Link>
+          <Link to="/hotels">Hotels</Link>
+         <Link to="/rentals">Rentals</Link>
+          <Link to="/tours">Tour Packages</Link>
+          <Link to="/contact">Contact</Link>
+          <Link to="/Login" className="buttonNav">Login</Link>
         </ul>
        
       
