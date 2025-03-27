@@ -15,7 +15,12 @@ const Contact = () => {
   };
 
   return (
+    <div className="carti">
+      <h2>Get in Touch</h2>
+      <p>Have questions or need guidance? We're here to help!</p>
+
     <div className="contact-container">
+     
       <h2>Contact Us</h2>
       <div className="contact-content">
         <form className="contact-form" onSubmit={handleSubmit}>
@@ -25,13 +30,15 @@ const Contact = () => {
           <textarea name="message" placeholder="Your Message" value={formData.message} onChange={handleChange} required></textarea>
           <button type="submit">Send Message</button>
         </form>
-        <div className="contact-info">
+        {/* <div className="contact-info">
           <h3>Get in Touch</h3>
           <p>Email: primakez@gmail.com</p>
           <p>Phone: +250 795 202 641</p>
           <p>Address: 123 Reservation St, Kigali, Rwanda</p>
-        </div>
+        </div> */}
       </div>
+      </div>
+     
     </div>
   );
 };

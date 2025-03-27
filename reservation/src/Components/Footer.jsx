@@ -50,8 +50,14 @@ const Footer = () => {
         <h2 className='subscribe-info'>Subscribe Us</h2>
         <p className='news'>Subscribe for the latest News</p>
         <input type="text" name="text" placeholder="Subscribe Now" className='sub' />
-       </div>
-        <p>&copy; 2025 Prima's Design. All rights reserved.</p>  
+       
+       <button className="subscribe-button">
+          Subscribe
+      <span className="bell-icon">🔔</span> 
+      <span className="cursor-icon"></span>
+    </button>
+    </div>
+        <p className='copy-right'>&copy; 2025 Prima's Design. All rights reserved.</p>  
     </div>
   );
 }

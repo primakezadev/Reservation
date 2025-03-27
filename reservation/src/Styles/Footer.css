@@ -27,13 +27,16 @@
     margin-left: 20px;
 }
 .icon2{
-    background-color: black;
+    background-color: rgb(21, 129, 230);
     margin-left: 20px;
+    width: 30px;
+    height: 27px;
 }
 
 .insta{
     width: 30px;
     margin-left: 20px;
+    margin-top: 40px;
 }
 .in{
     width: 30px;
@@ -100,3 +103,51 @@
     margin-top: 20px;
     margin-left: 180px;
 }
+.copy-right{
+    margin-top: 350px;
+    margin-left: -340px;
+}
+/* SubscribeButton.css */
+
+.subscribe-button {
+    background-color: #e9e0e0; /* Red background */
+    color: black; /* White text */
+    padding: 12px 24px; /* Padding for button size */
+    border-radius: 50px; /* Rounded corners */
+    font-size: 15px; /* Font size */
+    font-weight: bold; /* Bold text */
+    cursor: pointer; /* Change cursor on hover */
+    position: relative; /* For relative positioning of icons */
+    overflow: hidden; /* Hide overflow from icons */
+    margin-left: 1px;
+    margin-top: 20px;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #e9dada; /* Darker red on hover */
+  }
+  
+  .bell-icon {
+    position: absolute; /* Position the bell icon */
+    right: 6px; /* Position from right */
+    top: 30%; /* Center vertically */
+   
+    transform: translateY(-50%); /* Adjust vertical centering */
+    font-size: 17px; /* Size of the bell icon */
+  }
+  
+  .cursor-icon {
+    position: absolute; /* Position the cursor icon */
+    bottom: -20px; /* Start below the button */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Adjust horizontal centering */
+    width: 30px; /* Width of the cursor */
+    height: 30px; /* Height of the cursor */
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="white"><path d="M10 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2h-8l-2-2z"/></svg>'); /* SVG cursor icon */
+    background-size: cover; /* Cover the area */
+    transition: bottom 0.3s ease; /* Smooth transition */
+  }
+  
+  .subscribe-button:hover .cursor-icon {
+    bottom: 5px; /* Move cursor up on hover */
+  }

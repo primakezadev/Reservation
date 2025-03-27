@@ -72,7 +72,7 @@ const LoginForm = () => {
 
   return (
     <div className="login-container">
-      <div className="logo">
+      <div className="logo-login">
         <img src={logo} alt="logo" className="imagex" />
       </div>
       <h2>Welcome back!</h2>

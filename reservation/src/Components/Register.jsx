@@ -59,7 +59,7 @@ const Register = () => {
 
   return (
     <div className="register-container">
-      <img src={logo} alt="logo" className="logo" />
+      <img src={logo} alt="logo" className="logoy" />
       <h2>Create an Account</h2>
 
       {errorMessage && <p className="error-message">{errorMessage}</p>}

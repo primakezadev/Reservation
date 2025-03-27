@@ -29,9 +29,13 @@
 }
 
 /* Logo */
-.logo {
-  font-size: 40px;
+.logo-login {
+  font-size: 30px;
   margin-left: 30px;
+}
+.imagex{
+  width: 25%;
+  margin-right: 100px;
 }
 
 

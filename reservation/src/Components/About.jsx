@@ -6,6 +6,7 @@ import pic1 from "../assets/images/pic1.jpeg"
 import pic2 from "../assets/images/pic2.jpeg"
 import mille from "../assets/images/mille.jpeg"
 import Inspiration from "./Inspiration"
+import Trend from "./Trend";
 import '../Styles/About.css'
    
 
@@ -48,6 +49,7 @@ export default function About(){
       <button className="scroll-top" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
         ⬆
       </button>
+      <Trend />
       <div className="image-info">
        
        <img src={pic1} alt="pic" className="pic1" />

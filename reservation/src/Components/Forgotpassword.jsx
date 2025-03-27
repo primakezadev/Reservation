@@ -6,7 +6,7 @@ import logo from "../assets/images/logo.png"
 const ForgotPassword = () => {
   return (
     <div className="forgot-password-container">
-        <img src={logo} alt="logo" className="logo" />
+    <img src={logo} alt="logox" className="logo-pass" />
       <h2>Reset Your Password</h2>
       <p>Enter your email address, and we'll send you a link to reset your password.</p>
       
