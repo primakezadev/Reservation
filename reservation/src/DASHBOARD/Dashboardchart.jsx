@@ -1,6 +1,6 @@
 import React from 'react';
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
-import "../DASHBOARD/Dashboard_style/Chart.css"
+import "../DASHBOARD/Dashboard_Style/Chart.css"
 const data = [
   { name: '1', uv: 20, pv: 65 },
   { name: '2', uv: 40, pv: 60 },
