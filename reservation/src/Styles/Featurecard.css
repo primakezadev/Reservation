@@ -42,7 +42,11 @@
     font-size: 18px;
     font-weight: bold;
     max-width: 250px;
+    
   } 
+  .feature-text h2{
+    margin-left: 55px;
+  }
   
     .feature-cards {
     display: flex;
