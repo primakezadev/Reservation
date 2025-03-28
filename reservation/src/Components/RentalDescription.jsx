@@ -5,6 +5,7 @@ import rresort from "../assets/images/rresort.jpeg"
 import tanzaa from "../assets/images/tanzaa.jpeg"
 import ug1 from "../assets/images/ug1.jpeg"
 import "../Styles/RentalDescription.css";
+import {useNavigate} from 'react-router-dom'
 
 const rentalDescriptions = [
   {
@@ -60,6 +61,11 @@ const rentalDescriptions = [
 ];
 
 const RentalDescription = () => {
+   const navigate = useNavigate();
+  
+    const handlereserve = () => {
+      navigate ("RentalForm")
+    }
   return (
     <div className="rental-container">
       <h2 className="rental-title">Available Rentals</h2>
@@ -76,7 +82,9 @@ const RentalDescription = () => {
                 Amenities: {rental.amenities.join(", ")}
               </p>
               <p className="rental-description">{rental.description}</p>
-              <button className="rent-button">Reserve Now</button>
+              <button
+              onClick={handlereserve}
+              className="rent-button">Reserve Now</button>
             </div>
           </div>
         ))}

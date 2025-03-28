@@ -19,6 +19,7 @@ import Settings from "./DASHBOARD/Settings";
 import AdminLayout from "./Admin-Dashboard/AdminLayout";
 import AdminView from "./Admin-Dashboard/AdminView";
 import AdmDashboard from "./Admin-Dashboard/AdmDashboard";
+import RentalForm from "./Components/RentalForm";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
            <Route path="login" element={<Login />} /> 
            <Route path="Register" element={<Register />} />
            <Route path="Forgotpassword" element={<ForgotPassword />} />
+           <Route path="RentalForm" element={<RentalForm />} />
         </Route>
 
         {/* Dashboard Pages */}

@@ -11,9 +11,15 @@ import Featurecard from "./Featurecard"
 import Staysection from "./Staysection";
 import HotelDealscard from "./HotelDealscard";
 import Rewards from "./Rewards"
+import {useNavigate} from 'react-router-dom'
 
 
 export default function Home(){
+  const navigate = useNavigate();
+
+  const handlebook = () => {
+    navigate ("RentalForm")
+  }
   return(
     
     <div className="home-container">
@@ -23,7 +29,9 @@ export default function Home(){
         <div className="hero-content">
           <h1>Live the dream in a holiday home</h1>
           <p>Choose from houses, villas, chalets and more</p>
-          <button className="book-btn">Book yours</button>
+          <button
+          onClick={handlebook}
+          className="book-btn">Book yours</button>
         </div>
       </div>
 
