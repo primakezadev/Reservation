@@ -64,7 +64,7 @@ const RentalDescription = () => {
    const navigate = useNavigate();
   
     const handlereserve = () => {
-      navigate ("RentalForm")
+      navigate ("/RentalForm")
     }
   return (
     <div className="rental-container">
