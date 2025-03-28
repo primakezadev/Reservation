@@ -1,28 +1,30 @@
 import React, { useState } from "react";
+import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-import { useForm } from "react-hook-form";
+import { Notify } from "notiflix";
 import logo from "../assets/images/logo.png";
-import Inputfield from "./Inputfield";
-import Button from "./Button";
-import { FaFacebook, FaTwitter, FaGoogle } from "react-icons/fa6";
 import "../Styles/Signin.css";
-
 
 const API_URL = "http://localhost:5001";
 
 const LoginForm = () => {
-  const { register, handleSubmit } = useForm();
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+  
+  const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
-  const navigate = useNavigate();
 
-  const onSubmitSignIn = async (data) => {
+  const onSubmit = async (data) => {
     setIsLoading(true);
     setErrorMessage("");
 
     try {
-      console.log("Connecting to:", `${API_URL}/user/login`);
+      console.log("Sending login request with data:", JSON.stringify(data, null, 2));
 
       const response = await axios.post(
         `${API_URL}/user/login`,
@@ -58,13 +60,13 @@ const LoginForm = () => {
         localStorage.setItem("role", userToken.user.role);
       }
 
-      alert("Login Successful");
+      Notify.success("Login Successful");
       navigate("/dashboard");
     } catch (error) {
       console.error("Login error:", error);
       const errorMsg = error.response?.data?.message || "An error occurred";
       setErrorMessage(errorMsg);
-      alert(errorMsg);
+      Notify.failure(errorMsg);
     } finally {
       setIsLoading(false);
     }
@@ -72,25 +74,33 @@ const LoginForm = () => {
 
   return (
     <div className="login-container">
-      <div className="logo-login">
-        <img src={logo} alt="logo" className="imagex" />
-      </div>
+      <img src={logo} alt="logo" className="logoy" />
       <h2>Welcome back!</h2>
-      <p className="paragraph-information">Enter to get unlimited access to data & information.</p>
 
-      <form className="form-info" onSubmit={handleSubmit(onSubmitSignIn)}>
-        <Inputfield
-          label="Email*"
+      {errorMessage && <p className="error-message">{errorMessage}</p>}
+
+      <form className="login-form" onSubmit={handleSubmit(onSubmit)}>
+        <label>Email*</label>
+        <input
           type="email"
-          placeholder="Enter your mail address"
-          {...register("email", { required: true })}
+          placeholder="Enter your email"
+          {...register("email", {
+            required: "Email is required",
+            pattern: {
+              value: /^[^\s@]+@[^\s@]+\.[^\s@]+$/,
+              message: "Invalid email format",
+            },
+          })}
         />
-        <Inputfield
-          label="Password*"
+        {errors.email && <p className="error-text">{errors.email.message}</p>}
+
+        <label>Password*</label>
+        <input
           type="password"
-          placeholder="Enter password"
-          {...register("password", { required: true })}
+          placeholder="Enter your password"
+          {...register("password", { required: "Password is required" })}
         />
+        {errors.password && <p className="error-text">{errors.password.message}</p>}
 
         <div className="remember-forgot">
           <label className="remember">
@@ -101,26 +111,13 @@ const LoginForm = () => {
           </Link>
         </div>
 
-        <Button text={isLoading ? "Logging in..." : "Log In"} className="primary-btn" disabled={isLoading} />
-
-        <div className="social-login-container">
-          <p className="social-login-text">Or sign up using</p>
-          <div className="social-buttons">
-            <button className="social-btn facebook">
-              <FaFacebook />
-            </button>
-            <button className="social-btn twitter">
-              <FaTwitter />
-            </button>
-            <button className="social-btn google">
-              <FaGoogle />
-            </button>
-          </div>
-        </div>
+        <button type="submit" className="login-btn" disabled={isLoading}>
+          {isLoading ? "Logging in..." : "Log In"}
+        </button>
       </form>
 
-      <p className="register-text">
-        Don't have an account? <Link to="/Register" className="register-here">Register here</Link>
+      <p className="login-register">
+        Don't have an account? <Link to="/Register">Register here</Link>
       </p>
     </div>
   );

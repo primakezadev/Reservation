@@ -1,7 +1,14 @@
 import React, { useState } from "react";
 import "../DASHBOARD/Dashboard_Style/view.css";
+import {useNavigate} from 'react-router-dom'
 
 const TripList = () => {
+    const navigate = useNavigate();
+    
+      const handletrip = () => {
+        navigate ("/Hotels")
+      }
+
   const [activeTab, setActiveTab] = useState("All Trips");
   const tabs = ["All Trips", "Pending Trips", "Approved"];
 
@@ -18,7 +25,9 @@ const TripList = () => {
           </span>
         ))}
       </div>
-      <button className="new-trip-btn">+ New Trips</button>
+      <button
+      onClick={handletrip}
+      className="new-trip-btn">+ New Trips</button>
     </div>
   );
 };
