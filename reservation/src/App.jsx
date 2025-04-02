@@ -19,6 +19,8 @@ import Settings from "./DASHBOARD/Settings";
 import AdminLayout from "./Admin-Dashboard/AdminLayout";
 import AdminView from "./Admin-Dashboard/AdminView";
 import AdmDashboard from "./Admin-Dashboard/AdmDashboard";
+import Booking from "./Admin-Dashboard/Booking";  // Make sure the path is correct
+
 import RentalForm from "./Components/RentalForm";
 
 function App() {
@@ -49,9 +51,9 @@ function App() {
         </Route>
       
         <Route path="/Admin-Dashboard" element={<AdminLayout />}>
-        <Route index element={<AdminView />} />
-        <Route path="Adm-dashboard" element={<AdmDashboard />} /> {/* Corrected path */}
-
+       <Route index element={<AdminView />} />
+        <Route path="Adm-dashboard" element={<AdmDashboard />} />
+       <Route path="Booking" element={<Booking />} />
        </Route>
 
 

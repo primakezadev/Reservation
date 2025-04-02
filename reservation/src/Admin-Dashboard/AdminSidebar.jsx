@@ -17,9 +17,10 @@ const AdminSidebar = () => {
         <Link to="/Adm-dashboard" className="sidebar-link">
           <FaTh className="icon" /> Adm-Dashboard
         </Link>
-        <Link to="/bookings" className="sidebar-link">
-          <FaCheckSquare className="icon" /> Bookings
+        <Link to="Booking" className="sidebar-link"> {/* Use relative path */}
+        <FaCheckSquare className="icon" /> Bookings
         </Link>
+
         <Link to="/invoices" className="sidebar-link">
           <FaFileInvoice className="icon" /> Clients
         </Link>

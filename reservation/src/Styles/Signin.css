@@ -1,4 +1,5 @@
 
+
 /* Parent Container */
 .container {
   display: flex;
@@ -15,7 +16,7 @@
   width: 45%;
   margin-top: 50px;
   margin-left: 400px;
-  background:rgb(250, 247, 247);
+  background: rgb(250, 247, 247);
   padding: 50px;
   text-align: center;
   display: flex;
@@ -24,8 +25,9 @@
   align-items: center;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-.paragraph-information{
-  margin-bottom: 30px; 
+
+.paragraph-information {
+  margin-bottom: 30px;
 }
 
 /* Logo */
@@ -33,73 +35,78 @@
   font-size: 30px;
   margin-left: 30px;
 }
-.imagex{
+
+.logoy {
   width: 25%;
   margin-right: 100px;
 }
 
-
-
 /* Input Fields */
-.input-container {
-  text-align: left;
-  margin-bottom: 15px;
-  width: 100%;
-  max-width: 300px;
-}
-
-.input-container label {
-  font-size: 14px;
+.login-form label {
   display: block;
   margin-bottom: 5px;
+  text-align: left;
 }
 
-.input-container input {
-  width: 100%;
+.login-form input {
+  width: calc(100% - 22px);
   padding: 10px;
+  margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.error-text {
+  color: rgb(72, 206, 38);
+  font-size: 12px;
+  text-align: left;
+  margin-top: 5px;
 }
 
 /* Remember Me & Forgot Password */
 .remember-forgot {
   display: flex;
-  font-size: 15px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
 }
-.remember{
-margin-left: 10px;
- 
+
+.remember {
+  display: flex;
+  margin-top: -20px;
 }
-.password{
-  margin-top: 50px;
-  margin-left:50px;
-  color: #0E0590;;
+
+.password  {
+  color: #0E0590;
+  text-decoration: none;
+  margin-top: 40px;
 }
 
 /* Buttons */
-.primary-btn {
+.login-btn {
   width: 100%;
-  max-width: 300px;
+  padding: 10px;
   background-color: #0E0590;
   color: white;
-  padding: 10px;
-  margin: 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  margin-top: 20px;
 }
 
-
+/* Social Login */
 .social-login-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  margin-top: 20px;
 }
 
 .social-login-text {
-  color:black;
+  color: black;
   font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .social-buttons {
@@ -131,7 +138,7 @@ margin-left: 10px;
 }
 
 .twitter {
-  background-color:#078bf8;
+  background-color: #078bf8;
 }
 
 .twitter:hover {
@@ -143,15 +150,15 @@ margin-left: 10px;
 }
 
 .google:hover {
-  background-color:rgb(247, 179, 54);
+  background-color: rgb(247, 179, 54);
 }
-.register-text{
+
+/* Register Link */
+.login-register {
   margin-top: 20px;
- 
 }
-.register-here{
+
+.login-register a {
   color: #0E0590;
-}
-.form-inf{
-  margin-top: 20px;
+  text-decoration: none;
 }

@@ -8,6 +8,7 @@ import mille from "../assets/images/mille.jpeg"
 import Inspiration from "./Inspiration"
 import Trend from "./Trend";
 import '../Styles/About.css'
+import HotelReservation from "./HotelReservation";
    
 
 export default function About(){
@@ -49,6 +50,7 @@ export default function About(){
       <button className="scroll-top" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
         ⬆
       </button>
+      <HotelReservation />
       <Trend />
       <div className="image-info">
        

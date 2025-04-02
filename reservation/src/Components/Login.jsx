@@ -1,9 +1,14 @@
+// LoginForm.js (Updated React Component)
+
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
 import { Notify } from "notiflix";
 import logo from "../assets/images/logo.png";
+import { FaSquareFacebook } from "react-icons/fa6";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaGoogle } from "react-icons/fa";
 import "../Styles/Signin.css";
 
 const API_URL = "http://localhost:5001";
@@ -14,7 +19,7 @@ const LoginForm = () => {
     handleSubmit,
     formState: { errors },
   } = useForm();
-  
+
   const navigate = useNavigate();
   const [isLoading, setIsLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
@@ -119,6 +124,28 @@ const LoginForm = () => {
       <p className="login-register">
         Don't have an account? <Link to="/Register">Register here</Link>
       </p>
+
+      <div className="social-login-container">
+        <p className="social-login-text">Or sign up using</p>
+        <div className="social-buttons">
+          <button className="social-btn facebook">
+          <FaSquareFacebook />
+            <i className="fab fa-facebook-f"></i>
+          </button>
+
+          <button className="social-btn twitter">
+          <FaSquareXTwitter />
+            <i className="fab fa-twitter"></i>
+          </button>
+
+          <button className="social-btn google">
+          <FaGoogle />
+            <i className="fab fa-google"></i>
+          </button>
+
+        </div>
+      </div>
+
     </div>
   );
 };
