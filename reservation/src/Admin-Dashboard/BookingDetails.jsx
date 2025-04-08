@@ -11,7 +11,7 @@ const BookingDetails = () => {
     {
       date: "14.02.2023",
       customer: "Mitchel Johnson",
-      avatar: kate, // Replace with actual image
+      avatar: kate,
       persons: "2 adults x 1 Child",
       phone: "+15 256 896 8856",
       checkIn: "15-02-2023 11:00am",
@@ -21,7 +21,7 @@ const BookingDetails = () => {
     {
       date: "16.02.2023",
       customer: "Robert Afflick",
-      avatar: star, // Replace with actual image
+      avatar: star, 
       persons: "2 adults x 2 Childs",
       phone: "+11 509 854 8986",
       checkIn: "17-02-2023 09:00am",
@@ -31,7 +31,7 @@ const BookingDetails = () => {
     {
       date: "15.02.2023",
       customer: "Chris Hemsworth",
-      avatar: tyla, // Replace with actual image
+      avatar: tyla, 
       persons: "2 adults",
       phone: "+52 745 836 1164",
       checkIn: "17-02-2023",
@@ -41,7 +41,7 @@ const BookingDetails = () => {
     {
         date: "15.02.2023",
         customer: "Chris Hemsworth",
-        avatar: tyla, // Replace with actual image
+        avatar: tyla, 
         persons: "2 adults",
         phone: "+52 745 836 1164",
         checkIn: "17-02-2023",
